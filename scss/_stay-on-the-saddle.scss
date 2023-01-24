@@ -1,0 +1,79 @@
+.stay-on-the-saddle {
+	width: 100%;
+	display: grid;
+	justify-items: center;
+	padding: 100px 0;
+	gap: 30px;
+	&__icon {
+		width: 94px;
+		height: 85px;
+	}
+	&__text {
+		font-size: 24px;
+		font-weight: 400;
+		font-style: italic;
+		color: #848789;
+	}
+	&__form {
+	}
+	&__email {
+		min-width: 400px;
+		padding: 23px;
+		background-color: #ffffff;
+		border-top: 1px solid #d3d7d9;
+		border-left: 1px solid #d3d7d9;
+		font-size: 20px;
+		line-height: 24px;
+		font-weight: 400;
+		font-style: italic;
+		color: #929292;
+	}
+	&__button {
+		font-size: 24px;
+		line-height: 24px;
+		font-weight: 300;
+		text-transform: uppercase;
+		padding: 23px 30px;
+		background-color: #64c29e;
+		margin-left: 3px;
+		cursor: pointer;
+	}
+}
+
+@media (max-width: 570px) {
+	.stay-on-the-saddle__button{
+		padding: 18px 23px;
+	}
+	.stay-on-the-saddle {
+		padding: 50px 0;
+		gap: 20px;
+	}
+	.stay-on-the-saddle__email{
+		min-width: 200px;
+		padding: 18px;
+	}
+}
+@media (max-width: 375px) {
+	.stay-on-the-saddle {
+		padding: 15px;
+		&__icon {
+			width: 64px;
+			height: fit-content;
+		}
+		&__button{
+			padding: 14px;
+			margin-left: -1px;
+		}
+		&__email{
+			font-size: 18px;
+			padding: 14px;
+		}
+		&__text {
+			font-size: 20px;
+			font-weight: 400;
+		}
+		&__form {
+			display: grid;
+		}
+	}
+}

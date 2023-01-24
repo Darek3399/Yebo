@@ -1,0 +1,30 @@
+@import "_nullstyle";
+@import "_header";
+@import "_a-new-generation";
+@import "_bicicle";
+@import "_aod";
+@import "_shop_now";
+@import "_button";
+@import "_stay-on-the-saddle";
+@import "_footer";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+// font-family: 'Lato', sans-serif;
+body{
+	width: 100%;
+	min-width: 320px;
+}
+html{
+	width: fit-content;
+}
+.wrapper{
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+}
+.main{
+	width: 100%;
+}
+img{
+	object-fit: cover;
+}
